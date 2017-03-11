@@ -1,0 +1,20 @@
+{
+  "name": "vscode-snippets-to-ultisnips",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple tool for converting VSCode snippets to UltiSnips for vim",
+  "main": "index.ts",
+  "scripts": {
+    "convert": "ts-node index.ts"
+  },
+  "author": "Morten Sjøgren <m_abs@mabs.dk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "strip-json-comments": "^2.0.1"
+  }
+}
